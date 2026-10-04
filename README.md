@@ -1,4 +1,4 @@
-# Screenshot Search
+# Photo Search
 
 Search a folder of screenshots by describing what's in them, or pick one and find the ones that look like it.
 

@@ -81,8 +81,8 @@ def back_to_text(state):
     return saved["items"], state, f"Top {len(saved['items'])} for “{saved['query'].strip()}”", None
 
 
-with gr.Blocks(title="Screenshot Search") as demo:
-    gr.Markdown(f"# Screenshot search\nSearch {len(engine.paths)} images by text, or find look-alikes of one.")
+with gr.Blocks(title="Photo Search") as demo:
+    gr.Markdown(f"# Photo search\nSearch {len(engine.paths)} images by text, or find look-alikes of one.")
     state = gr.State({"paths": [], "scores": [], "selected": None, "text": None})
     with gr.Row():
         query = gr.Textbox(placeholder="Describe what you're looking for…", show_label=False, scale=5)
