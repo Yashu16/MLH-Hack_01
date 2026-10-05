@@ -1,6 +1,6 @@
 # Photo Search
 
-Search a folder of screenshots by describing what's in them, or pick one and find the ones that look like it.
+Search a folder of pictures by describing what's in them, or pick one and find the ones that look like it.
 
 I had 220 gameplay screenshots from one game update and no good way to find a specific moment in them without scrolling through every file. This app lets me type something like *"a character standing near water"* and get the 12 closest matches, then press **Find similar** on any result to see look-alikes.
 
